@@ -13,7 +13,7 @@ public class MineSweeper {
         this.numberMines = (row*column)/4;
     }
     void run(){
-        mapMine(); // ödevde istendiği için çağırıyoruz
+        mapMine();
         mapMineField();
         do {
             int count = 0;
